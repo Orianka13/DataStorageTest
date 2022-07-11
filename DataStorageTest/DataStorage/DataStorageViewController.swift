@@ -17,6 +17,7 @@ final class DataStorageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.addButton3.layer.cornerRadius = 10
     }
     
     @IBAction func addData1(_ sender: Any) {
